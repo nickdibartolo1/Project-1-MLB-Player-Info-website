@@ -1,3 +1,15 @@
-btn-color{
+.bg_navy{
     background-color: navy;
+}
+
+.btn-color{
+    background-color: rgb(231, 61, 61);
+}
+
+.btn-color:hover{
+    background-color: rgb(231, 61, 61);
+}
+
+.text-color{
+    color: white;
 }
