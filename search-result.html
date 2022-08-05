@@ -7,20 +7,20 @@
   <title>Results | Library of Congress Search</title>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Merriweather:wght@700&display=swap"
     rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/jass.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/jass.css" /> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/style.css">
 </head>
 
 <body>
 
-  <div class="flex-row align-start align-stretch-md align-content-start align-content-stretch-md min-100-vh bg-primary">
-    <div class="col-12 col-md-3 bg-light p-3">
-      <h1 class="text-primary">Library of Congress Search Engine</h1>
+  <div class="flex-row align-start align-stretch-md align-content-start align-content-stretch-md min-100-vh bg-navy">
+    <div class="col-12 col-md-3 bg-white p-3">
+      <h1 class="text-white bg-navy">MLB Player Statistics Results</h1>
       <form id="search-form" class="mb-2">
-        <input id="search-input" class="form-input w-100" type="text" placeholder="Search!">
+        <input id="search-input" class="form-input w-100" type="text" placeholder="Player Name">
         <select id="format-input" class="form-input w-100">
-          <option value="" disabled selected>Select a format...</option>
+          <option value="" disabled selected>Team</option>
           <option value="Arizona Diamondbacks">Arizona Diamondbacks</option>
           <option value="Atlanta Braves">Atlanta Braves</option>
           <option value="Baltimore Orioles">Baltimore Orioles </option>
@@ -54,13 +54,13 @@
         
           
         </select>
-        <button class="btn btn-info btn-block">Search</button>
+        <button class="btn btn-dark btn-block">Search</button>
       </form>
 
-      <a href="./index.html" class="btn btn-block btn-danger">&larr; Go back.</a>
+      <a href="./index.html" class="btn btn-block btn-danger">&larr; Reset</a>
     </div>
 
-    <div class="col-12 col-md-9 p-3 text-light">
+    <div class="col-12 col-md-9 p-3 text-white">
       <h2>Showing results for <span id="result-text"></span></h2>
       <div id="result-content"></div>
     </div>
