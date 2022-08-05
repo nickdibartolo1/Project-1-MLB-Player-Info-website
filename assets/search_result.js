@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function getApi() {
 	var playerName = "Judge"
 	var myApiUrl = "http://lookup-service-prod.mlb.com/json/named.search_player_all.bam?sport_code='mlb'&active_sw='Y'&name_part='"+ playerName + "%25'"
@@ -46,25 +45,3 @@ function pitchingApi() {
 	  })
 }
 pitchingApi()
-=======
-
-var searchFormEl = document.querySelector('#search-form');
-
-function handleSearchFormSubmit(event) {
-  event.preventDefault();
-
-  var searchInputVal = document.querySelector('#search-input').value;
-  var formatInputVal = document.querySelector('#format-input').value;
-
-  if (!searchInputVal) {
-    console.error('You need a search input value!');
-    return;
-  }
-
-  var queryString = './search-results.html?q=' + searchInputVal + '&format=' + formatInputVal;
-
-  location.assign(queryString);
-}
-
-searchFormEl.addEventListener('submit', handleSearchFormSubmit);
->>>>>>> 71164d6fbabd9c5dfacf8423a45b8dd08791cf20

@@ -13,3 +13,12 @@
 .text-color{
     color: white;
 }
+
+.fontType{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* .btn-hover:hover{
+    background-color: rgb(227, 227, 110);
+    transition: 0.5;
+} */
