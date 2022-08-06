@@ -10,3 +10,6 @@ Then the result will not show by Player ID
 
 The site is compatible with most devices. The code automatically keeps the stats and information up to date.
 
+The code contains IDs of players from the entire Major League. 
+
+It will record their batting average, as well as their pitching ERA.
