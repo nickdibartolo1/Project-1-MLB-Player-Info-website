@@ -13,3 +13,5 @@ The site is compatible with most devices. The code automatically keeps the stats
 The code contains IDs of players from the entire Major League. 
 
 It will record their batting average, as well as their pitching ERA.
+
+The player information will display the athletes date of birth as well as the players hometown. It will also include their height and weight which will also be up to date.
