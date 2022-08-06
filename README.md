@@ -7,3 +7,6 @@ When you enter a player from any team who is either a pitcher or a hitter
 Then their stats will appear by Player ID
 When you enter a player who is neither a hitter or a pitcher
 Then the result will not show by Player ID
+
+The site is compatible with most devices. The code automatically keeps the stats and information up to date.
+
