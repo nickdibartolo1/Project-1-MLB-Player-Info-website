@@ -16,7 +16,12 @@
 
 .fontType {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 60px;
+    font-size: 40px;
+}
+
+.btn-fontType{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
 }
 
 .btn-hover1:hover {
@@ -31,14 +36,13 @@
 
 /* image for index page of MLB logo */
 .img-adj {
-    max-width: 20%;
+    max-width: 15%;
     height: auto;
     padding-bottom: 15px;
     padding-top: 5px;
 }
 
     
-
 /* image for search result page of MLB logo */
 .img-adj2 {
     max-width: 25%;
