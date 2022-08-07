@@ -32,17 +32,17 @@
 /* image for index page of MLB logo */
 .img-adj {
     max-width: 20%;
-    float: right;
     height: auto;
-    margin-top: 0px;
-    padding-bottom: 5%;
-    position: relative;
-    top: -65px;
-
+    padding-bottom: 15px;
+    padding-top: 5px;
 }
+
+    
 
 /* image for search result page of MLB logo */
 .img-adj2 {
     max-width: 25%;
     height: auto;
+    padding-bottom: 15px;
+    padding-top: 5px;
 }
