@@ -3,7 +3,7 @@ var searchContentEl = document.querySelector('#result-content');
 var searchFormEl = document.querySelector('#search-form');
 
 function displayResults(resultsObj){
-    console.log(resultsObj);
+    // console.log(resultsObj);
 }
 
 
