@@ -1,15 +1,31 @@
 var resultTextEl = document.querySelector('#result-text');
 var searchContentEl = document.querySelector('#result-content');
-var searchFormEl = document.querySelector('#search-form');
+var searchFormEl = document.querySelector('#search-input');
+var searchBtnEl = document.querySelector('#search-btn');
+// var playerName = document.getElementById("search-input");
+// var formatName = document.getElementById("format-input");
 
+function handleSearchFormSubmit(event) {
+	event.preventDefault();
+  
+	var searchInputVal = document.querySelector('#search-input').value;
+	console.log(searchInputVal)
+  
+  
+  searchBtnEl.addEventListener('click', handleSearchFormSubmit);
+}
 
-function getApi(query, format) {
-	var playerName = "Degrom"
+function getApi() {
+	var playerName = document.getElementById("search-input").value;
 	var myApiUrl = "http://lookup-service-prod.mlb.com/json/named.search_player_all.bam?sport_code='mlb'&active_sw='Y'&name_part='" + playerName + "%25'"
-
-//	if (format) {
-//		myApiUrl = "http://lookup-service-prod.mlb.com/json/named./ " + format + ".bam?sport_code='mlb'&active_sw='Y'&name_part='"+ query + "%25'"
-//	}
+	console.log(playerName)
+	//var formatName = document.getElementById("format-input");
+	// if (format) {
+	// 	myApiUrl = "http://lookup-service-prod.mlb.com/json/named." + format + ".bam?sport_code='mlb'&active_sw='Y'";
+	// }
+	
+	// myApiUrl = myApiUrl + "&name_part='" + playerName + "%25'" + query;
+	
 	
 	fetch(myApiUrl)
     .then(function (response) {
@@ -38,6 +54,8 @@ function getApi(query, format) {
 	  .catch(function (error) {
 		console.error(error);
 	  });
+
+
 }
 getApi()
 
