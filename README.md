@@ -1,4 +1,4 @@
-# Project-1-MLB-statistics-website
+# Project-1-MLB-Player-Info-website
 A website for obtaining information of Major League Baseball Players.
 
 Amongst the 4 main American sports, baseball is the only one that is currently active and in-season. Therefore it felt the most approriate to gather data from this sport.
