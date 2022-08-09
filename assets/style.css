@@ -3,7 +3,7 @@
 }
 
 .btn-color {
-    background-color: rgb(231, 61, 61);
+    background-color: rgb(252, 250, 250);
 }
 
 .btn-color:hover {
@@ -11,7 +11,7 @@
 }
 
 .text-color {
-    color: white;
+    color: rgb(155, 24, 24);
 }
 
 #result-content {

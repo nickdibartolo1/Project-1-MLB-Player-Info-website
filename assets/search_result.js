@@ -25,7 +25,7 @@ function getApi() {
 
 	var myApiUrl = "http://lookup-service-prod.mlb.com/json/named.search_player_all.bam?sport_code='mlb'&active_sw='Y'&name_part='" + playerName + "%25'";
 	console.log(playerName);
-	$.get(myApiUrl,function(data){
+	$.get(myApiUrl, function (data) {
 
 		console.log("success");
 		console.log(data);
@@ -64,14 +64,13 @@ function getApi() {
 			
 
 		);
-
 		$("#result-content").show();
 
 	})
 
 }
 
-	
+
 
 
 searchFormEl.addEventListener('submit', handleSearchFormSubmit);
