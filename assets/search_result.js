@@ -39,13 +39,29 @@ function getApi() {
 		var heightInches=data.search_player_all.queryResults.row.height_inches;
 		var team=data.search_player_all.queryResults.row.team_full;
 		var position=data.search_player_all.queryResults.row.position;
-
+		var weight = data.search_player_all.queryResults.row.weight;
+		var birthState=data.search_player_all.queryResults.row.birth_state;
+		var bats =data.search_player_all.queryResults.row.bats;
+		var throws=data.search_player_all.queryResults.row.throws;
+		var college=data.search_player_all.queryResults.row.college;
+		var birthCountry=data.search_player_all.queryResults.row.birth_country;
+		var birthDate=data.search_player_all.queryResults.row.birth_date;
+		var highSchool = data.search_player_all.queryResults.row.high_school;
+		var debutDate = data.search_player_all.queryResults.row.pro_debut_date
 		$("#result-content").append(
-			"<h6>Name: "+name+"</h6>"+
-			"<h6>Birth City: "+birthCity+"</h6>"+
-			"<h6>Height: "+heightFt+" ft "+heightInches+" inches</h6>"+
-			"<h6>Team: "+team+"</h6>"+
-			"<h6>Position: "+position+"</h6>"
+			"<h4>Name: "+name+"</h4>"+
+			"<h4>Birth Date: "+birthDate+"</h4>"+
+			"<h4>Birth City: "+birthCity+", "+birthState+", "+birthCountry+"</h4>"+
+			"<h4>High School: "+highSchool+"</h4>"+
+			"<h4>College: "+college+"</h4>"+
+			"<h4>Team: "+team+"</h4>"+
+			"<h4>Debut Date: "+debutDate+"</h4>"+
+			"<h4>Height: "+heightFt+" ft "+heightInches+" inches</h4>"+	
+			"<h4>Weight: "+weight+"</h4>"+
+			"<h4>Position: "+position+"</h4>"+
+			"<h4>Bats: "+bats+" "+"Throws:"+" "+throws+"</h4>"
+
+			
 
 		);
 
