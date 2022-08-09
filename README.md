@@ -13,3 +13,4 @@ The code contains IDs of players from the entire Major League.
 The player information will display the athletes name as well as the players hometown/birth city. It will also include their height in feet and inches. 
 
 The results will display the current team and position the athlete plays. As the API keeps the information up to date.
+

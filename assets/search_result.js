@@ -3,8 +3,7 @@ var searchContentEl = document.querySelector('#result-content');
 var searchFormEl = document.querySelector('#search-form');
 var searchBtnEl = document.querySelector('#search-btn');
 var DATA;
-// var playerName = document.getElementById("search-input");
-// var formatName = document.getElementById("format-input");
+
 
 function handleSearchFormSubmit(event) {
 	event.preventDefault();
@@ -12,9 +11,8 @@ function handleSearchFormSubmit(event) {
 	var searchInputVal = document.querySelector('#search-input').value;
 	var searchInput = document.querySelector('#search-input');
 	//console.log(searchInputVal)
-	//hides results each time you click search
 
-	//	searchBtnEl.addEventListener('click', handleSearchFormSubmit);
+	//hides results each time you click search
 	getApi()
 }
 
