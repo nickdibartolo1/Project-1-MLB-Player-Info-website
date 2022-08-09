@@ -12,11 +12,15 @@ function handleSearchFormSubmit(event) {
 	console.log(searchInputVal)
   
   
-  searchBtnEl.addEventListener('click', handleSearchFormSubmit);
+  searchBtnEl.addEventListener('click', handleSearchFormSubmit, getApi);
+  //getApi()
 }
 
 function getApi() {
 	var playerName = document.getElementById("search-input").value;
+	//searchBtnEl.addEventListener('click', getApi);
+
+
 	var myApiUrl = "http://lookup-service-prod.mlb.com/json/named.search_player_all.bam?sport_code='mlb'&active_sw='Y'&name_part='" + playerName + "%25'"
 	console.log(playerName)
 	//var formatName = document.getElementById("format-input");
@@ -83,7 +87,6 @@ function pitchingApi() {
 		return response.json();
 	  })
 	  .then(function (data) {
-		console.log(data)
 		console.log(data.sport_career_pitching.queryResults)
 		  
 	  })
