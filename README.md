@@ -1,12 +1,10 @@
 # Project-1-MLB-Player-Info-website
 A website for obtaining information of Major League Baseball Players.
 
-Amongst the 4 main American sports, baseball is the only one that is currently active and in-season. Therefore it felt the most approriate to gather data from this sport.
-
-When you enter a player from any team who is either a pitcher or a hitter
-Then their information will appear by Player ID
-When you enter a player who is neither a hitter or a pitcher
-Then the result will not show by Player ID
+When you enter a player from any team
+Then their player information will appear
+When you enter a player who is not currently in the MLB
+Then the result will not show
 
 The site is compatible with most devices. The code automatically keeps the information up to date.
 
