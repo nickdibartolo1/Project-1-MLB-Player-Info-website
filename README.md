@@ -1,10 +1,10 @@
 # Project-1-MLB-Player-Info-website
 A website for obtaining information of Major League Baseball Players.
 
-When you enter a player from any team
+When you enter a player from any current MLB team
 Then their player information will appear
 When you enter a player who is not currently in the MLB
-Then the result will not show
+Then the result will not display any information
 
 The site is compatible with most devices. The code automatically keeps the information up to date.
 
