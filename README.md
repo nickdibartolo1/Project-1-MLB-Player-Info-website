@@ -14,4 +14,12 @@ The player information will display the athletes name as well as the players hom
 
 The results will display the current team and position the athlete plays. As the API keeps the information up to date.
 
-Powerpoint project link: https://docs.google.com/presentation/d/1rPP0hkbMSQ-lEdxVKu9lDcEW6smmH_-ps1zTHpP5dWw/edit#slide=id.g29f43f0a72_0_24
+# Screenshots
+
+![] (/assets/images/Project-1-Screenshot1.png)
+![] (/assets/images/Project-1-Screenshot2.png)
+
+# Links
+Deployed URL: https://nickdibartolo1.github.io/Project-1-MLB-Player-Info-website/
+Git Hub Rep Link: https://github.com/nickdibartolo1/Project-1-MLB-Player-Info-website
+
