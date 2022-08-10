@@ -16,8 +16,8 @@ The results will display the current team and position the athlete plays. As the
 
 # Screenshots
 
-![] (/assets/images/Project-1-Screenshot1.png)
-![] (/assets/images/Project-1-Screenshot2.png)
+![](assets/images/Project-1-Screenshot1.png)
+![](assets/images/Project-1-Screenshot2.png)
 
 # Links
 Deployed URL: https://nickdibartolo1.github.io/Project-1-MLB-Player-Info-website/
