@@ -22,4 +22,4 @@ The results will display the current team and position the athlete plays. As the
 # Links
 Deployed URL: https://nickdibartolo1.github.io/Project-1-MLB-Player-Info-website/
 Git Hub Rep Link: https://github.com/nickdibartolo1/Project-1-MLB-Player-Info-website
-
+Google Slides: https://docs.google.com/presentation/d/1rPP0hkbMSQ-lEdxVKu9lDcEW6smmH_-ps1zTHpP5dWw/edit?usp=sharing
